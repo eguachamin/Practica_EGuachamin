@@ -1,10 +1,10 @@
 # Funciones y Fundamentos
 ## Autor
 - [@Eguachamín](https://github.com/eguachamin/)
-![image]()
 
-// PRÁCTICA - LABORATORIO
-// EVELYN - GUACHAMIN
+
+PRÁCTICA - LABORATORIO
+EVELYN - GUACHAMIN
 // DESARROLLAR LOS EJERCICIOS EN BASE A LA PAGINA ESCOGIDO POR EL GRUPO (FYBECA)
 //VARIABLES (FYBECA)
     //Tipos Simples
@@ -49,8 +49,8 @@
         let price_medicamento="1.20"
         let price_pañal=17.54
         console.log(+price_medicamento+price_pañal) //(+) transforma el string en float o entero
-        ![image](https://github.com/user-attachments/assets/c9787b0c-64a3-4d40-8d05-2ecd9927e9ba)
-        ![image](https://github.com/user-attachments/assets/361f7574-6b8b-4636-82a7-7a7506bd79d4)
+![image](https://github.com/user-attachments/assets/c9787b0c-64a3-4d40-8d05-2ecd9927e9ba)
+![image](https://github.com/user-attachments/assets/361f7574-6b8b-4636-82a7-7a7506bd79d4)
         
     //Operador Ternario
             //Fybeca - Factura - Cobro para envio
@@ -58,12 +58,12 @@
         let valor_cobrado=18.80
 
         let para_envio = valor_cobrado <= valor_a_cancelar ? "Requiere Cambio" : "El saldo es insuficiente para la compra"
-        ![image](https://github.com/user-attachments/assets/04d332f0-d058-4497-9706-165e8fc76f70)
+![image](https://github.com/user-attachments/assets/04d332f0-d058-4497-9706-165e8fc76f70)
         
             //Ingreso a la cuenta Club-Fybeca
         let email_clubFybeca
         !email_clubFybeca ? console.log("El campo es obligatorio") : console.log("Correo Correcto"); 
-        ![image](https://github.com/user-attachments/assets/d04e2561-ed74-414e-873e-fc7536e4b01e)
+![image](https://github.com/user-attachments/assets/d04e2561-ed74-414e-873e-fc7536e4b01e)
             //Registro de Clientes
             let cliente_ID = 1751253400
             cliente_ID === "1751253400" ? console.log("Cliente Registrado") : console.log("Continue con su registro");
@@ -77,7 +77,7 @@
     console.log(lista_compra_user);
     console.log(lista_compra)
     
-    ![image](https://github.com/user-attachments/assets/73c31d2c-d903-435b-a854-12efd323eca8)
+![image](https://github.com/user-attachments/assets/73c31d2c-d903-435b-a854-12efd323eca8)
     
     //Funcion Anonima y Autoejecutada
     /*(function(){
@@ -88,7 +88,7 @@
     function getAvatar(){
         console.log('C:/Users/taty-/Downloads/API-GR1/API-GR1/logo-Fybeca-01.png'); 
     }
-    ![image](https://github.com/user-attachments/assets/7efcfbcf-e23d-4f81-b33c-542ec487b327)
+![image](https://github.com/user-attachments/assets/7efcfbcf-e23d-4f81-b33c-542ec487b327)
     //FUNCION EXPRESADA - Almacena en una variable la informacion 
     const conectionBDD = function (){
         console.log("Conexion exitosa"); 
@@ -184,7 +184,7 @@
 
     console.log(orderUser)
     
-    ![image](https://github.com/user-attachments/assets/b42f8487-c760-4c65-b575-1b1828f99c84)
+![image](https://github.com/user-attachments/assets/b42f8487-c760-4c65-b575-1b1828f99c84)
     
     // ES6 - Nombres abreviados de propiedades
         //productos de Fybeca
@@ -197,5 +197,4 @@
     }
 
     console.log(pedido_Solicitado);
-
-    ![image](https://github.com/user-attachments/assets/118ff475-27b9-4caf-b82f-a2f161a54364)
+![image](https://github.com/user-attachments/assets/118ff475-27b9-4caf-b82f-a2f161a54364)
