@@ -170,7 +170,7 @@
     console.log(orderUser)
 
     // ES6 - Nombres abreviados de propiedades
-
+        //productos de Fybeca
     const nameProducto1 = "Crema Corporal Baby 400 Ml"
     const priceProducto1 = 21.64
 
