@@ -25,7 +25,7 @@ const user = {
 console.log(user.state);                     
 console.log(user.sendMail());                 
 console.log(user.sendNotification());           
-
+![image](https://github.com/user-attachments/assets/bc959e0e-9895-459f-8299-09ce96e6cb5e)
 // AGREGA Y ELEMINAR ELEMENTOS DEL OBJETOS 
 const user2 = {
     name: "Evelyn",
