@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1DB954; /* Color verde como Spotify */
+}
+
+button {
+    background-color: #1DB954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #17a347;
+}
+
+#lista-canciones {
+    margin: 20px auto;
+    padding: 0;
+    width: 60%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.cancion {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#cancion-actual {
+    font-size: 18px;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Botones de reproducción */
+.botones-reproduccion button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.botones-reproduccion button#reproducir {
+    background-color: #1DB954;
+}
+
+.botones-reproduccion button#pausar {
+    background-color: #f44336;
+}
